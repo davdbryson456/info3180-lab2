@@ -1,0 +1,58 @@
+{% extends 'base.html' %}
+{% block main %}
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+<link rel="stylesheet" href= "{{ url_for('static', filename='css/app.css') }}" type="text/css" />
+  <body>
+<div id="background">
+      
+   
+    <div id="up">
+      
+      
+      <img src="{{url_for('static',filename='my19_model_hero_mobile.jpg') }}"id="image1">
+      <h2>Tallulah Bryson</h2>
+      <p>@Tal</p>
+      <p>St.Andrew,Jamaica</p>
+      <p> Joined December,2018</p>
+      
+    </div>
+     
+      
+    <div id="down">
+      
+        <p>I am a 2018 Honda CRV</p>
+        
+        <div class="ff">
+          <p class="block">7</p> 
+          <p class="block">100</p>
+          <p class="block">250</p>
+        </div>
+        
+        <div class="ff">
+          <p class="block">Posts</p> 
+          <p class="block">Following</p>
+          <p class="block">Followers</p>
+        </div>
+        
+        <br>
+        <button> Follow</button>
+    </div>
+</div>
+      
+    </header>
+    
+    <main>
+        
+    </main>
+    <footer>
+       
+    </footer>
+
+  </body>
+</html>
+
+{% endblock %}
